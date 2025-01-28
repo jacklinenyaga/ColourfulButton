@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-border {
+  background: linear-gradient(45deg, red, yellow, blue);
+  padding: 5px;
+  border-radius: 4em;
+  transition: all 0.7s ease-in-out;
+}
+.button {
+  border: none;
+  padding: 1em 1.5em;
+  background-color: black;
+  color: rgb(163, 159, 159);
+  font-family: inherit;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  border-radius: 4em;
+  transition: all 0.7s ease-in-out;
+}
+
+.button-border:hover {
+  background: linear-gradient(325deg, red, yellow, blue);
+  padding: 1.1em, 1.6em;
+  transform: scale(1.1);
+}
+.button:hover {
+  color: white;
+  cursor: pointer;
+}
